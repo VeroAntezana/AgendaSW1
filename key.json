@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "shining-relic-441222-i6",
+  "private_key_id": "609d42e8833f5e7a7dd295d75a4216f9fce0efc5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCVFJ4YSSVVoyzd\nMst3hx/gSbtEbDNXxPzaT9h2yMH7HauYgyrRoFq2vt/yiARUU6eek8Fn7t4JXc8M\nKEfFvlNhWlslwKJRYvl7IP2VmHahpk2NB8W0DjczuMyanxh8oTU2L/vRdSvIQyq/\n/GiJ+xd037HgiqY06xS6I3Fx+tSGnxy95WimNztT0rxSn7IYV2zm4qDAZLkhk0h/\nL4kWBus7ug0G/X9auwY27jJCFp8RCLs+MQ6fzilWgOzRerQoyLxmBzF1kwDo65c9\nctwgBsBD80PFwJooy/JhwRiHHYzwUpklLJqQ3iOwFeEUW9ErnuSLdYXLObuGOoWO\nCsTx/tmfAgMBAAECggEAHosJ1OnvhzsWLv+AJi39/uK8Rklwv3OxZjzjmXqKG5u5\nk1aUSDx1OWmj0jnBwVEeT2PwRQ3wWbTpfZEnG0FiLdjoQbTUzJ3dhTd+HM8OxxGe\nY92KyNf8wVEEQk2EI8yXbVGpYwGBhdcVBB5/gH18Ecre06U0ZjUfmv819+cu8aGJ\nmGIU066XS2XmsBcbRemLNaO2F6BIdBaTjh2UrUeeSUDsap20qdJyETNjy0Og2hC2\n3LgKFKxTyqBqtTM5f24+FaBl3fzdayTzDlcSO82Qv8LiY5kwZU0W8BjkQKjDVGGe\nfsU7FmUf3VjzyloUB/tYyiJt4YGpUaxzpZifF51nIQKBgQDJglxgM5VsSQiR8w/f\njsQrVql/n0DrbVD2mdeg4kqUOxmCnBNGZpTlMy6Llrp72QHCvUUEa5EJ41IGGBMA\nWs76Yg69dM7lh41PNWAXz8dy86Mud6ugQv/jwtEKDYoIjdEn3khNyHZMcC9a7h5+\nqPLHDWZDPwfLJT9k1yzGaG4LUQKBgQC9ZNaqfqef1bTAsLX8WVKQCSkjWo9HA7AN\nSHI4342spk6jobo/N2SSimwuEGboXiYH3NKDpCr2jdpHmy/JkMdMm/S50MgpCA5L\noSb8KQ0g8NZEbVbZedrZCqoKD2Wk90dyJYMpO1Tw/7VjXfjeKw57OycSuy69PL2i\nNcjpxRl57wKBgQC3dRnI8+2sImnNBq+C5yWuFz5F1KV0MZguiy2Hab5gadX11Uav\nJ6GTch+EMnwhWRaDR3HYbl4j1HPO3IggIIyj5DZrQjdDPT/nxz5vL1n0S+Ba49S7\nGYSCxdEvB9iNpR+w3myRdFpPiStz66qTwhkWJBrgSjg8OPMYSdaX5GeboQKBgHKn\n6FkhAeN+YcXBdPrHLHdsRE5V1aVdMyhnclbB56fcqoDfOLxqkWUxjZo5bcNAs+9Q\nnNT6/tNyPvHYng59qlnTlE0levd0HAtnDQ3c4EjP5DdaphhUb8uzbAtZFOTQmp0c\n3pGIjLy1YR891ZrSIBs0TUxGq13+tqLLwsza+LhbAoGBALbb/AMLNJqmHYE/Toia\nq33No5AuTdK0l35/+IO+YCpxdZZPpmztn3ZtU2vKgNQfgKcSgAqoLBkxveuwIILW\njUVc7ZIueddMLbw4pGCh6V5Ly9JsjC5JnPqL2BNklmcUIRzk65Vyd9sVsevVvbwz\nanWlfukKR9R5DsTM3MsLGOU3\n-----END PRIVATE KEY-----\n",
+  "client_email": "myservices@shining-relic-441222-i6.iam.gserviceaccount.com",
+  "client_id": "103479392911492017601",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myservices%40shining-relic-441222-i6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+

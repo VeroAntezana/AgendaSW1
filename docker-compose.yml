@@ -1,0 +1,41 @@
+services:
+  odoo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: odoo_custom:17 # Nombre de tu imagen personalizada
+    ports:
+      - "8069:8069"
+    depends_on:
+      - db
+
+    volumes:
+      - ./addons:/mnt/extra-addons # Carpeta local de addons
+      - odoo-data:/var/lib/odoo
+      - ./config:/etc/odoo # Archivo de configuración de Odoo
+      - /key.json:/var/lib/odoo/key.json
+
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=postgres 
+    command: odoo -i base --database postgres --db_host=db --db_user=odoo --db_password=odoo
+    restart: unless-stopped
+
+  db:
+    image: postgres:15 # Imagen oficial de PostgreSQL
+    environment:
+
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  odoo-data:
+  db-data:
+  
