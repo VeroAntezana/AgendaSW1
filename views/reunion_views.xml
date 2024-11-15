@@ -1,0 +1,20 @@
+<odoo>
+    <record id="view_calendar_event_form_inherit_reunion" model="ir.ui.view">
+        <field name="name">calendar.event.form.inherit.reunion</field>
+        <field name="model">calendar.event</field>
+        <field name="inherit_id" ref="calendar.view_calendar_event_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group>
+                    <button name="action_transcribe_audio" type="object" string="Transcribir Audio"/>
+                </group>
+                <group>
+                    <field name="m4a_file" filename="m4a_filename" widget="binary"/>
+                </group>
+                <group>
+                    <field name="transcription_file" filename="transcription_filename" widget="binary" readonly="1"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
