@@ -6,7 +6,7 @@
     'description': """
  Agenda electronica
      """,
-    'author': "Grupo15",
+    'author': "Grupo15 , Verónica Antezana,Jessica Rivero,Juana Barriga",
      'category': 'Sales/School/Industries',
      'version': '17.0.0.3',
     'depends': ['base','hr','web','calendar'],
